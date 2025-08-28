@@ -10,16 +10,16 @@
  * @copyright 2020 Sean Molenaar
  */
 
-namespace OCA\News\Service;
+namespace OCA\NewsYawks\Service;
 
-use OCA\News\AppInfo\Application;
-use OCA\News\Db\Feed;
-use OCA\News\Db\ListType;
-use OCA\News\Db\Item;
-use OCA\News\Db\ItemMapperV2;
-use OCA\News\Service\Exceptions\ServiceConflictException;
-use OCA\News\Service\Exceptions\ServiceNotFoundException;
-use OCA\News\Service\Exceptions\ServiceValidationException;
+use OCA\NewsYawks\AppInfo\Application;
+use OCA\NewsYawks\Db\Feed;
+use OCA\NewsYawks\Db\ListType;
+use OCA\NewsYawks\Db\Item;
+use OCA\NewsYawks\Db\ItemMapperV2;
+use OCA\NewsYawks\Service\Exceptions\ServiceConflictException;
+use OCA\NewsYawks\Service\Exceptions\ServiceNotFoundException;
+use OCA\NewsYawks\Service\Exceptions\ServiceValidationException;
 use OCP\AppFramework\Db\DoesNotExistException;
 use OCP\AppFramework\Db\Entity;
 use OCP\AppFramework\Db\MultipleObjectsReturnedException;
@@ -29,7 +29,7 @@ use Psr\Log\LoggerInterface;
 /**
  * Class ItemService
  *
- * @package OCA\News\Service
+ * @package OCA\NewsYawks\Service
  */
 class ItemServiceV2 extends Service
 {

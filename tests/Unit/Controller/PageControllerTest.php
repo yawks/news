@@ -11,14 +11,14 @@
  * @copyright 2012-2014 Bernhard Posselt
  */
 
-namespace OCA\News\Tests\Unit\Controller;
+namespace OCA\NewsYawks\Tests\Unit\Controller;
 
 use OC\L10N\L10N;
-use OCA\News\Controller\PageController;
-use \OCA\News\Db\ListType;
-use OCA\News\Explore\Exceptions\RecommendedSiteNotFoundException;
-use OCA\News\Explore\RecommendedSites;
-use OCA\News\Service\StatusService;
+use OCA\NewsYawks\Controller\PageController;
+use \OCA\NewsYawks\Db\ListType;
+use OCA\NewsYawks\Explore\Exceptions\RecommendedSiteNotFoundException;
+use OCA\NewsYawks\Explore\RecommendedSites;
+use OCA\NewsYawks\Service\StatusService;
 use OCP\IAppConfig;
 use OCP\IConfig;
 use OCP\IL10N;
@@ -186,7 +186,7 @@ class PageControllerTest extends TestCase
     }
 
     /**
-     * @covers \OCA\News\Controller\PageController::settings
+     * @covers \OCA\NewsYawks\Controller\PageController::settings
      */
     public function testSettings()
     {
@@ -264,7 +264,7 @@ class PageControllerTest extends TestCase
     }
 
     /**
-     * @covers \OCA\News\Controller\PageController::updateSettings
+     * @covers \OCA\NewsYawks\Controller\PageController::updateSettings
      */
     public function testUpdateSettings()
     {

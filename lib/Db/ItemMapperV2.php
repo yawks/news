@@ -10,12 +10,12 @@
  * @copyright 2020 Sean Molenaar
  */
 
-namespace OCA\News\Db;
+namespace OCA\NewsYawks\Db;
 
 use OC\DB\QueryBuilder\Literal;
-use OCA\News\Service\Exceptions\ServiceValidationException;
+use OCA\NewsYawks\Service\Exceptions\ServiceValidationException;
 use PDO;
-use OCA\News\Utility\Time;
+use OCA\NewsYawks\Utility\Time;
 use OCP\AppFramework\Db\DoesNotExistException;
 use OCP\AppFramework\Db\Entity;
 use OCP\AppFramework\Db\MultipleObjectsReturnedException;
@@ -26,7 +26,7 @@ use OCP\IDBConnection;
 /**
  * Class ItemMapper
  *
- * @package OCA\News\Db
+ * @package OCA\NewsYawks\Db
  */
 class ItemMapperV2 extends NewsMapperV2
 {

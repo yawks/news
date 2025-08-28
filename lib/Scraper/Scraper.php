@@ -9,14 +9,14 @@
  * @copyright 2019 Gioele Falcetti
  */
 
-namespace OCA\News\Scraper;
+namespace OCA\NewsYawks\Scraper;
 
 use fivefilters\Readability\Readability;
 use fivefilters\Readability\Configuration;
 use fivefilters\Readability\ParseException;
 use League\Uri\Exceptions\SyntaxError;
 use Psr\Log\LoggerInterface;
-use OCA\News\Config\FetcherConfig;
+use OCA\NewsYawks\Config\FetcherConfig;
 
 class Scraper implements IScraper
 {

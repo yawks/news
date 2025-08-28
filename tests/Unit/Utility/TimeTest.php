@@ -18,9 +18,9 @@
  *
  */
 
-namespace OCA\News\Tests\Unit\Utility;
+namespace OCA\NewsYawks\Tests\Unit\Utility;
 
-use OCA\News\Utility\Time;
+use OCA\NewsYawks\Utility\Time;
 use PHPUnit\Framework\TestCase;
 
 class TimeTest extends TestCase

@@ -13,7 +13,7 @@
  * @copyright 2018 David Guillot
  */
 
-namespace OCA\News\Controller;
+namespace OCA\NewsYawks\Controller;
 
 use OCP\AppFramework\Http\JSONResponse;
 use \OCP\IRequest;
@@ -23,10 +23,10 @@ use OCP\AppFramework\Http\Attribute\NoAdminRequired;
 use OCP\AppFramework\Http\Attribute\NoCSRFRequired;
 use OCP\AppFramework\Http\Attribute\CORS;
 
-use \OCA\News\Service\FolderServiceV2;
-use \OCA\News\Service\Exceptions\ServiceNotFoundException;
-use \OCA\News\Service\Exceptions\ServiceConflictException;
-use \OCA\News\Service\Exceptions\ServiceValidationException;
+use \OCA\NewsYawks\Service\FolderServiceV2;
+use \OCA\NewsYawks\Service\Exceptions\ServiceNotFoundException;
+use \OCA\NewsYawks\Service\Exceptions\ServiceConflictException;
+use \OCA\NewsYawks\Service\Exceptions\ServiceValidationException;
 
 class FolderApiController extends ApiController
 {

@@ -9,14 +9,14 @@
  * @copyright 2012-2014 Bernhard Posselt
  */
 
-namespace OCA\News\Cron;
+namespace OCA\NewsYawks\Cron;
 
 use OCP\BackgroundJob\TimedJob;
 use OCP\AppFramework\Utility\ITimeFactory;
 
-use OCA\News\AppInfo\Application;
-use OCA\News\Service\StatusService;
-use OCA\News\Service\UpdaterService;
+use OCA\NewsYawks\AppInfo\Application;
+use OCA\NewsYawks\Service\StatusService;
+use OCA\NewsYawks\Service\UpdaterService;
 use OCP\IAppConfig;
 
 class UpdaterJob extends TimedJob

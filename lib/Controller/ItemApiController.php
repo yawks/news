@@ -13,12 +13,12 @@
  * @copyright 2018 David Guillot
  */
 
-namespace OCA\News\Controller;
+namespace OCA\NewsYawks\Controller;
 
-use OCA\News\Db\ListType;
-use OCA\News\Service\Exceptions\ServiceConflictException;
-use OCA\News\Service\Exceptions\ServiceValidationException;
-use OCA\News\Service\ItemServiceV2;
+use OCA\NewsYawks\Db\ListType;
+use OCA\NewsYawks\Service\Exceptions\ServiceConflictException;
+use OCA\NewsYawks\Service\Exceptions\ServiceValidationException;
+use OCA\NewsYawks\Service\ItemServiceV2;
 use OCP\AppFramework\Http\JSONResponse;
 use \OCP\IRequest;
 use \OCP\IUserSession;
@@ -27,12 +27,12 @@ use OCP\AppFramework\Http\Attribute\NoAdminRequired;
 use OCP\AppFramework\Http\Attribute\NoCSRFRequired;
 use OCP\AppFramework\Http\Attribute\CORS;
 
-use \OCA\News\Service\Exceptions\ServiceNotFoundException;
+use \OCA\NewsYawks\Service\Exceptions\ServiceNotFoundException;
 
 /**
  * Class ItemApiController
  *
- * @package OCA\News\Controller
+ * @package OCA\NewsYawks\Controller
  */
 class ItemApiController extends ApiController
 {

@@ -11,12 +11,12 @@
  * @copyright 2012-2014 Bernhard Posselt
  */
 
-namespace OCA\News\Utility;
+namespace OCA\NewsYawks\Utility;
 
 use \DOMDocument;
 use \DOMElement;
-use OCA\News\Db\Feed;
-use OCA\News\Db\Folder;
+use OCA\NewsYawks\Db\Feed;
+use OCA\NewsYawks\Db\Folder;
 
 /**
  * Exports the OPML

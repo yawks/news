@@ -1,7 +1,7 @@
 <?php
 
 
-namespace OCA\News\Tests\Unit\Fetcher;
+namespace OCA\NewsYawks\Tests\Unit\Fetcher;
 
 use DateTime;
 use FeedIo\Adapter\Http\Response;
@@ -9,7 +9,7 @@ use FeedIo\Adapter\NotFoundException;
 use FeedIo\Adapter\ServerErrorException;
 use GuzzleHttp\ClientInterface;
 use GuzzleHttp\Exception\BadResponseException;
-use OCA\News\Fetcher\Client\FeedIoClient;
+use OCA\NewsYawks\Fetcher\Client\FeedIoClient;
 use PHPUnit\Framework\MockObject\MockObject;
 use PHPUnit\Framework\TestCase;
 use Psr\Http\Message\RequestInterface;

@@ -1,12 +1,12 @@
 <?php
 
-namespace OCA\News\Search;
+namespace OCA\NewsYawks\Search;
 
-use OCA\News\Db\Folder;
-use OCA\News\Service\FeedServiceV2;
-use OCA\News\Service\FolderServiceV2;
-use OCA\News\Service\OpmlService;
-use OCA\News\Utility\OPMLExporter;
+use OCA\NewsYawks\Db\Folder;
+use OCA\NewsYawks\Service\FeedServiceV2;
+use OCA\NewsYawks\Service\FolderServiceV2;
+use OCA\NewsYawks\Service\OpmlService;
+use OCA\NewsYawks\Utility\OPMLExporter;
 use OCP\IL10N;
 use OCP\IURLGenerator;
 use OCP\IUser;

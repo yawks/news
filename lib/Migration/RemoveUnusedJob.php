@@ -1,5 +1,5 @@
 <?php
-namespace OCA\News\Migration;
+namespace OCA\NewsYawks\Migration;
 
 use OCP\Migration\IOutput;
 use OCP\Migration\IRepairStep;
@@ -39,9 +39,9 @@ class RemoveUnusedJob implements IRepairStep
      */
     public function run(IOutput $output)
     {
-        if ($this->joblist->has("OCA\News\Cron\Updater", null)) {
+        if ($this->joblist->has("OCA\NewsYawks\Cron\Updater", null)) {
             $output->info("Job exists, attempting to remove");
-            $this->joblist->remove("OCA\News\Cron\Updater");
+            $this->joblist->remove("OCA\NewsYawks\Cron\Updater");
             $output->info("Job removed");
         } else {
             $output->info("Job does not exist, all good");

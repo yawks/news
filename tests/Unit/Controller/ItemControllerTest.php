@@ -11,18 +11,18 @@
  * @copyright 2012-2014 Bernhard Posselt
  */
 
-namespace OCA\News\Tests\Unit\Controller;
+namespace OCA\NewsYawks\Tests\Unit\Controller;
 
-use OCA\News\Controller\ItemController;
-use OCA\News\Service\FeedServiceV2;
-use OCA\News\Service\ItemServiceV2;
-use OCA\News\Service\ShareService;
+use OCA\NewsYawks\Controller\ItemController;
+use OCA\NewsYawks\Service\FeedServiceV2;
+use OCA\NewsYawks\Service\ItemServiceV2;
+use OCA\NewsYawks\Service\ShareService;
 use \OCP\AppFramework\Http;
 
-use \OCA\News\Db\Item;
-use \OCA\News\Db\Feed;
-use \OCA\News\Db\ListType;
-use \OCA\News\Service\Exceptions\ServiceNotFoundException;
+use \OCA\NewsYawks\Db\Item;
+use \OCA\NewsYawks\Db\Feed;
+use \OCA\NewsYawks\Db\ListType;
+use \OCA\NewsYawks\Service\Exceptions\ServiceNotFoundException;
 use OCP\IConfig;
 use OCP\IRequest;
 

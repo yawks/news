@@ -8,7 +8,7 @@
  * @author Sean Molenaar <sean@seanmolenaar.eu>
  * @copyright Sean Molenaar 2019
  */
-namespace OCA\News\Command;
+namespace OCA\NewsYawks\Command;
 
 use FeedIo\FeedIo;
 use Favicon\Favicon;

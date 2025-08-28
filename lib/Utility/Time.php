@@ -9,7 +9,7 @@
  * @copyright 2016 Bernhard Posselt
  */
 
-namespace OCA\News\Utility;
+namespace OCA\NewsYawks\Utility;
 
 class Time
 {

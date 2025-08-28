@@ -12,10 +12,10 @@
  */
 
 
-namespace OCA\News\Service;
+namespace OCA\NewsYawks\Service;
 
 use OCP\BackgroundJob\IJobList;
-use OCA\News\Cron\UpdaterJob;
+use OCA\NewsYawks\Cron\UpdaterJob;
 
 class UpdaterService
 {

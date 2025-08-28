@@ -13,14 +13,14 @@
  * @copyright 2020 Paul Tirk
  */
 
-namespace OCA\News\Db;
+namespace OCA\NewsYawks\Db;
 
 use OCP\AppFramework\Db\Entity;
 
 /**
  * Class Feed
  *
- * @package OCA\News\Db
+ * @package OCA\NewsYawks\Db
  * @Embeddable
  */
 class Feed extends Entity implements IAPI, \JsonSerializable

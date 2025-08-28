@@ -11,17 +11,17 @@
  * @copyright 2012-2014 Bernhard Posselt
  */
 
-namespace OCA\News\Tests\Unit\Service;
+namespace OCA\NewsYawks\Tests\Unit\Service;
 
-use OCA\News\Db\ItemMapperV2;
-use OCA\News\Service\Exceptions\ServiceConflictException;
-use OCA\News\Service\Exceptions\ServiceValidationException;
-use OCA\News\Service\Exceptions\ServiceNotFoundException;
-use OCA\News\Service\ItemServiceV2;
+use OCA\NewsYawks\Db\ItemMapperV2;
+use OCA\NewsYawks\Service\Exceptions\ServiceConflictException;
+use OCA\NewsYawks\Service\Exceptions\ServiceValidationException;
+use OCA\NewsYawks\Service\Exceptions\ServiceNotFoundException;
+use OCA\NewsYawks\Service\ItemServiceV2;
 use \OCP\AppFramework\Db\DoesNotExistException;
 
-use \OCA\News\Db\Item;
-use \OCA\News\Db\ListType;
+use \OCA\NewsYawks\Db\Item;
+use \OCA\NewsYawks\Db\ListType;
 use OCP\AppFramework\Db\MultipleObjectsReturnedException;
 use OCP\IAppConfig;
 
@@ -32,7 +32,7 @@ use Psr\Log\LoggerInterface;
 /**
  * Class ItemServiceTest
  *
- * @package OCA\News\Tests\Unit\Service
+ * @package OCA\NewsYawks\Tests\Unit\Service
  */
 class ItemServiceTest extends TestCase
 {

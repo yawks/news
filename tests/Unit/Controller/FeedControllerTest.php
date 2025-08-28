@@ -11,20 +11,20 @@
  * @copyright 2012-2014 Bernhard Posselt
  */
 
-namespace OCA\News\Tests\Unit\Controller;
+namespace OCA\NewsYawks\Tests\Unit\Controller;
 
-use OCA\News\Controller\FeedController;
-use OCA\News\Db\Folder;
-use OCA\News\Service\FeedServiceV2;
-use OCA\News\Service\FolderServiceV2;
-use OCA\News\Service\ImportService;
-use OCA\News\Service\ItemServiceV2;
+use OCA\NewsYawks\Controller\FeedController;
+use OCA\NewsYawks\Db\Folder;
+use OCA\NewsYawks\Service\FeedServiceV2;
+use OCA\NewsYawks\Service\FolderServiceV2;
+use OCA\NewsYawks\Service\ImportService;
+use OCA\NewsYawks\Service\ItemServiceV2;
 use OCP\AppFramework\Http;
 
-use OCA\News\Db\Feed;
-use OCA\News\Db\ListType;
-use OCA\News\Service\Exceptions\ServiceNotFoundException;
-use OCA\News\Service\Exceptions\ServiceConflictException;
+use OCA\NewsYawks\Db\Feed;
+use OCA\NewsYawks\Db\ListType;
+use OCA\NewsYawks\Service\Exceptions\ServiceNotFoundException;
+use OCA\NewsYawks\Service\Exceptions\ServiceConflictException;
 use OCP\IConfig;
 use OCP\IRequest;
 

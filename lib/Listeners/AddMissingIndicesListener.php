@@ -10,7 +10,7 @@
  * @copyright 2023 Benjamin Brahmer
  */
 
- namespace OCA\News\Listeners;
+ namespace OCA\NewsYawks\Listeners;
 
  use OCP\EventDispatcher\Event;
  use OCP\EventDispatcher\IEventListener;

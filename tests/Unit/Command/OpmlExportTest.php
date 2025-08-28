@@ -18,11 +18,11 @@
  *
  */
 
-namespace OCA\News\Tests\Unit\Command;
+namespace OCA\NewsYawks\Tests\Unit\Command;
 
-use OCA\News\Command\Config\OpmlExport;
-use OCA\News\Command\Updater\UpdateFeed;
-use OCA\News\Service\OpmlService;
+use OCA\NewsYawks\Command\Config\OpmlExport;
+use OCA\NewsYawks\Command\Updater\UpdateFeed;
+use OCA\NewsYawks\Service\OpmlService;
 use PHPUnit\Framework\MockObject\MockObject;
 use PHPUnit\Framework\TestCase;
 use Symfony\Component\Console\Input\InputInterface;

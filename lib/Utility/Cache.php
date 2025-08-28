@@ -8,7 +8,7 @@
  * @author    Benjamin Brahmer <info@b-brahmer.de>
  * @copyright 2023 Benjamin Brahmer
  */
-namespace OCA\News\Utility;
+namespace OCA\NewsYawks\Utility;
 
 use OCP\ITempManager;
 use OCP\IConfig;

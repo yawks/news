@@ -1,9 +1,9 @@
 <?php
 
-namespace OCA\News\Command\Config;
+namespace OCA\NewsYawks\Command\Config;
 
-use OCA\News\Controller\ApiPayloadTrait;
-use OCA\News\Service\FeedServiceV2;
+use OCA\NewsYawks\Controller\ApiPayloadTrait;
+use OCA\NewsYawks\Service\FeedServiceV2;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputInterface;

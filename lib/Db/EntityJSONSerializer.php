@@ -11,7 +11,7 @@
  * @copyright 2012-2014 Bernhard Posselt
  */
 
-namespace OCA\News\Db;
+namespace OCA\NewsYawks\Db;
 
 trait EntityJSONSerializer
 {

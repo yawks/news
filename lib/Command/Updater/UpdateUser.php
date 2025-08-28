@@ -6,10 +6,10 @@
  * later. See the COPYING file.
  */
 
-namespace OCA\News\Command\Updater;
+namespace OCA\NewsYawks\Command\Updater;
 
 use Exception;
-use OCA\News\Service\FeedServiceV2;
+use OCA\NewsYawks\Service\FeedServiceV2;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputInterface;

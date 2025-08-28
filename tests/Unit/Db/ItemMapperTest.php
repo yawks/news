@@ -11,19 +11,19 @@
  * @copyright 2012-2014 Bernhard Posselt
  */
 
-namespace OCA\News\Tests\Unit\Db;
+namespace OCA\NewsYawks\Tests\Unit\Db;
 
 use OC\DB\QueryBuilder\Literal;
 use OC\DB\QueryBuilder\Parameter;
 use OC\DB\ResultAdapter;
-use OCA\News\Db\Feed;
-use OCA\News\Db\FeedMapperV2;
-use OCA\News\Db\Folder;
-use OCA\News\Db\Item;
-use OCA\News\Db\ItemMapperV2;
-use OCA\News\Db\NewsMapperV2;
-use OCA\News\Service\Exceptions\ServiceValidationException;
-use OCA\News\Utility\Time;
+use OCA\NewsYawks\Db\Feed;
+use OCA\NewsYawks\Db\FeedMapperV2;
+use OCA\NewsYawks\Db\Folder;
+use OCA\NewsYawks\Db\Item;
+use OCA\NewsYawks\Db\ItemMapperV2;
+use OCA\NewsYawks\Db\NewsMapperV2;
+use OCA\NewsYawks\Service\Exceptions\ServiceValidationException;
+use OCA\NewsYawks\Utility\Time;
 use OCP\AppFramework\Db\DoesNotExistException;
 use OCP\AppFramework\Db\MultipleObjectsReturnedException;
 use OCP\DB\IResult;
@@ -37,7 +37,7 @@ use Test\TestCase;
 /**
  * Class ItemMapperTest
  *
- * @package OCA\News\Tests\Unit\Db
+ * @package OCA\NewsYawks\Tests\Unit\Db
  */
 class ItemMapperTest extends MapperTestUtility
 {
@@ -48,7 +48,7 @@ class ItemMapperTest extends MapperTestUtility
     private $class;
 
     /**
-     * @covers \OCA\News\Db\ItemMapperV2::__construct
+     * @covers \OCA\NewsYawks\Db\ItemMapperV2::__construct
      */
     protected function setUp(): void
     {
@@ -60,7 +60,7 @@ class ItemMapperTest extends MapperTestUtility
     }
 
     /**
-     * @covers \OCA\News\Db\ItemMapperV2::__construct
+     * @covers \OCA\NewsYawks\Db\ItemMapperV2::__construct
      */
     public function testSetUpSuccess(): void
     {
@@ -68,7 +68,7 @@ class ItemMapperTest extends MapperTestUtility
     }
 
     /**
-     * @covers \OCA\News\Db\ItemMapperV2::findAllFromUser
+     * @covers \OCA\NewsYawks\Db\ItemMapperV2::findAllFromUser
      */
     public function testFindAllFromUser()
     {
@@ -123,7 +123,7 @@ class ItemMapperTest extends MapperTestUtility
     }
 
     /**
-     * @covers \OCA\News\Db\ItemMapperV2::findAllFromUser
+     * @covers \OCA\NewsYawks\Db\ItemMapperV2::findAllFromUser
      */
     public function testFindAllFromUserWithParams()
     {
@@ -184,7 +184,7 @@ class ItemMapperTest extends MapperTestUtility
     }
 
     /**
-     * @covers \OCA\News\Db\ItemMapperV2::findAll
+     * @covers \OCA\NewsYawks\Db\ItemMapperV2::findAll
      */
     public function testFindAll()
     {
@@ -229,7 +229,7 @@ class ItemMapperTest extends MapperTestUtility
     }
 
     /**
-     * @covers \OCA\News\Db\ItemMapperV2::findAllForFeed
+     * @covers \OCA\NewsYawks\Db\ItemMapperV2::findAllForFeed
      */
     public function testFindAllForFeed()
     {

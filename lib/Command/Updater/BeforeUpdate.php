@@ -9,9 +9,9 @@
  * @copyright Bernhard Posselt 2016
  */
 
-namespace OCA\News\Command\Updater;
+namespace OCA\NewsYawks\Command\Updater;
 
-use OCA\News\Service\UpdaterService;
+use OCA\NewsYawks\Service\UpdaterService;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;

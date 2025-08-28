@@ -11,11 +11,11 @@
  * @copyright 2012-2014 Bernhard Posselt
  */
 
-namespace OCA\News\Fetcher;
+namespace OCA\NewsYawks\Fetcher;
 
 use FeedIo\Reader\ReadErrorException;
-use OCA\News\Db\Feed;
-use OCA\News\Db\Item;
+use OCA\NewsYawks\Db\Feed;
+use OCA\NewsYawks\Db\Item;
 
 interface IFeedFetcher
 {

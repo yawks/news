@@ -11,9 +11,9 @@
  * @copyright 2012-2014 Bernhard Posselt
  */
 
-namespace OCA\News\Tests\Unit\Controller;
+namespace OCA\NewsYawks\Tests\Unit\Controller;
 
-use OCA\News\Controller\JSONHttpErrorTrait;
+use OCA\NewsYawks\Controller\JSONHttpErrorTrait;
 use PHPUnit\Framework\TestCase;
 
 class JSONHttpErrorTest extends TestCase

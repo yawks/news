@@ -11,11 +11,11 @@
  * @copyright 2012-2014 Bernhard Posselt
  */
 
-namespace OCA\News\Tests\Unit\Db;
+namespace OCA\NewsYawks\Tests\Unit\Db;
 
-use OCA\News\Db\Feed;
-use OCA\News\Db\NewsMapperV2;
-use OCA\News\Utility\Time;
+use OCA\NewsYawks\Db\Feed;
+use OCA\NewsYawks\Db\NewsMapperV2;
+use OCA\NewsYawks\Utility\Time;
 use OCP\DB\QueryBuilder\IQueryBuilder;
 use OCP\IDBConnection;
 use PHPUnit\Framework\TestCase;
@@ -23,7 +23,7 @@ use PHPUnit\Framework\TestCase;
 /**
  * Class TmpNewsMapper
  *
- * @package OCA\News\Tests\Unit\Db
+ * @package OCA\NewsYawks\Tests\Unit\Db
  */
 abstract class TmpNewsMapper extends NewsMapperV2
 {
@@ -33,7 +33,7 @@ abstract class TmpNewsMapper extends NewsMapperV2
 /**
  * Class NewsMapperTest
  *
- * @package OCA\News\Tests\Unit\Db
+ * @package OCA\NewsYawks\Tests\Unit\Db
  */
 class NewsMapperTest extends TestCase
 {
@@ -45,7 +45,7 @@ class NewsMapperTest extends TestCase
     private $class;
 
     /**
-     * @covers \OCA\News\Db\NewsMapperV2::__construct
+     * @covers \OCA\NewsYawks\Db\NewsMapperV2::__construct
      */
     protected function setUp(): void
     {
@@ -60,7 +60,7 @@ class NewsMapperTest extends TestCase
     }
 
     /**
-     * @covers \OCA\News\Db\NewsMapperV2::__construct
+     * @covers \OCA\NewsYawks\Db\NewsMapperV2::__construct
      */
     public function testSetUpSuccess(): void
     {
@@ -68,7 +68,7 @@ class NewsMapperTest extends TestCase
     }
 
     /**
-     * @covers \OCA\News\Db\NewsMapperV2::update
+     * @covers \OCA\NewsYawks\Db\NewsMapperV2::update
      */
     public function testUpdateNoChange()
     {
@@ -92,7 +92,7 @@ class NewsMapperTest extends TestCase
     }
 
     /**
-     * @covers \OCA\News\Db\NewsMapperV2::update
+     * @covers \OCA\NewsYawks\Db\NewsMapperV2::update
      */
     public function testUpdateChange()
     {
@@ -118,7 +118,7 @@ class NewsMapperTest extends TestCase
     }
 
     /**
-     * @covers \OCA\News\Db\NewsMapperV2::insert
+     * @covers \OCA\NewsYawks\Db\NewsMapperV2::insert
      */
     public function testInsert()
     {
@@ -148,7 +148,7 @@ class NewsMapperTest extends TestCase
     }
 
     /**
-     * @covers \OCA\News\Db\NewsMapperV2::purgeDeleted
+     * @covers \OCA\NewsYawks\Db\NewsMapperV2::purgeDeleted
      */
     public function testPurgeEmptyAll()
     {
@@ -176,7 +176,7 @@ class NewsMapperTest extends TestCase
     }
 
     /**
-     * @covers \OCA\News\Db\NewsMapperV2::purgeDeleted
+     * @covers \OCA\NewsYawks\Db\NewsMapperV2::purgeDeleted
      */
     public function testPurgeUser()
     {
@@ -209,7 +209,7 @@ class NewsMapperTest extends TestCase
     }
 
     /**
-     * @covers \OCA\News\Db\NewsMapperV2::purgeDeleted
+     * @covers \OCA\NewsYawks\Db\NewsMapperV2::purgeDeleted
      */
     public function testPurgeTime()
     {
@@ -242,7 +242,7 @@ class NewsMapperTest extends TestCase
     }
 
     /**
-     * @covers \OCA\News\Db\NewsMapperV2::purgeDeleted
+     * @covers \OCA\NewsYawks\Db\NewsMapperV2::purgeDeleted
      */
     public function testPurgeBoth()
     {

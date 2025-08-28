@@ -1,10 +1,10 @@
 <?php
 declare(strict_types=1);
 
-namespace OCA\News\Search;
+namespace OCA\NewsYawks\Search;
 
-use OCA\News\Service\FeedServiceV2;
-use OCA\News\AppInfo\Application;
+use OCA\NewsYawks\Service\FeedServiceV2;
+use OCA\NewsYawks\AppInfo\Application;
 use OCP\IL10N;
 use OCP\IURLGenerator;
 use OCP\IUser;
@@ -16,7 +16,7 @@ use OCP\Search\SearchResultEntry;
 /**
  * Class FeedSearchProvider
  *
- * @package OCA\News\Search
+ * @package OCA\NewsYawks\Search
  */
 class FeedSearchProvider implements IProvider
 {

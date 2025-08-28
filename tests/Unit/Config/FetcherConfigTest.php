@@ -19,10 +19,10 @@
  *
  */
 
-namespace OCA\News\Tests\Config;
+namespace OCA\NewsYawks\Tests\Config;
 
-use OCA\News\Config\FetcherConfig;
-use OCA\News\Fetcher\Client\FeedIoClient;
+use OCA\NewsYawks\Config\FetcherConfig;
+use OCA\NewsYawks\Fetcher\Client\FeedIoClient;
 use OCP\IAppConfig;
 use OCP\IConfig;
 use OCP\App\IAppManager;
@@ -35,7 +35,7 @@ use Psr\Log\LoggerInterface;
  *
  * TODO: Improve this
  *
- * @package OCA\News\Tests\Config
+ * @package OCA\NewsYawks\Tests\Config
  */
 class FetcherConfigTest extends TestCase
 {

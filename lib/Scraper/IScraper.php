@@ -9,7 +9,7 @@
  * @copyright 2019 Gioele Falcetti
  */
 
-namespace OCA\News\Scraper;
+namespace OCA\NewsYawks\Scraper;
 
 interface IScraper
 {

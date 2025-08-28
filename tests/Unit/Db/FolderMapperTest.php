@@ -11,13 +11,13 @@
  * @copyright 2012-2014 Bernhard Posselt
  */
 
-namespace OCA\News\Tests\Unit\Db;
+namespace OCA\NewsYawks\Tests\Unit\Db;
 
 use OC\DB\QueryBuilder\Parameter;
 use OC\DB\ResultAdapter;
-use OCA\News\Db\Folder;
-use OCA\News\Db\FolderMapperV2;
-use OCA\News\Utility\Time;
+use OCA\NewsYawks\Db\Folder;
+use OCA\NewsYawks\Db\FolderMapperV2;
+use OCA\NewsYawks\Utility\Time;
 use OCP\AppFramework\Db\DoesNotExistException;
 use OCP\AppFramework\Db\MultipleObjectsReturnedException;
 use OCP\DB\QueryBuilder\IQueryBuilder;
@@ -47,7 +47,7 @@ class FolderMapperTest extends MapperTestUtility
     }
 
     /**
-     * @covers \OCA\News\Db\FolderMapperV2::findAllFromUser
+     * @covers \OCA\NewsYawks\Db\FolderMapperV2::findAllFromUser
      */
     public function testFindAllFromUser()
     {
@@ -97,7 +97,7 @@ class FolderMapperTest extends MapperTestUtility
     }
 
     /**
-     * @covers \OCA\News\Db\FolderMapperV2::findFromUser
+     * @covers \OCA\NewsYawks\Db\FolderMapperV2::findFromUser
      */
     public function testFindFromUser()
     {
@@ -146,7 +146,7 @@ class FolderMapperTest extends MapperTestUtility
     }
 
     /**
-     * @covers \OCA\News\Db\FolderMapperV2::findFromUser
+     * @covers \OCA\NewsYawks\Db\FolderMapperV2::findFromUser
      */
     public function testFindFromUserEmpty()
     {
@@ -194,7 +194,7 @@ class FolderMapperTest extends MapperTestUtility
     }
 
     /**
-     * @covers \OCA\News\Db\FolderMapperV2::findFromUser
+     * @covers \OCA\NewsYawks\Db\FolderMapperV2::findFromUser
      */
     public function testFindFromUserDuplicate()
     {
@@ -244,7 +244,7 @@ class FolderMapperTest extends MapperTestUtility
     }
 
     /**
-     * @covers \OCA\News\Db\FolderMapperV2::findAll
+     * @covers \OCA\NewsYawks\Db\FolderMapperV2::findAll
      */
     public function testFindAll()
     {
@@ -284,7 +284,7 @@ class FolderMapperTest extends MapperTestUtility
     }
 
     /**
-     * @covers \OCA\News\Db\FolderMapperV2::read
+     * @covers \OCA\NewsYawks\Db\FolderMapperV2::read
      */
     public function testRead()
     {
@@ -386,7 +386,7 @@ class FolderMapperTest extends MapperTestUtility
     }
 
     /**
-     * @covers \OCA\News\Db\FolderMapperV2::read
+     * @covers \OCA\NewsYawks\Db\FolderMapperV2::read
      */
     public function testReadWithMaxId()
     {

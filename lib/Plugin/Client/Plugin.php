@@ -11,7 +11,7 @@
  * @copyright 2012-2014 Bernhard Posselt
  */
 
-namespace OCA\News\Plugin\Client;
+namespace OCA\NewsYawks\Plugin\Client;
 
 /**
  * TODO: remove this? it seems old.. there is no global list of plugins and seems plugins register themselves?

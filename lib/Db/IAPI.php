@@ -13,7 +13,7 @@
  * @copyright 2020 Paul Tirk
  */
 
-namespace OCA\News\Db;
+namespace OCA\NewsYawks\Db;
 
 interface IAPI
 {

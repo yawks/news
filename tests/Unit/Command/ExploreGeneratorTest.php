@@ -18,13 +18,13 @@
  *
  */
 
-namespace OCA\News\Tests\Unit\Command;
+namespace OCA\NewsYawks\Tests\Unit\Command;
 
 use FeedIo\Feed;
 use FeedIo\FeedIo;
 use Favicon\Favicon;
 use FeedIo\Reader\Result;
-use OCA\News\Command\ExploreGenerator;
+use OCA\NewsYawks\Command\ExploreGenerator;
 
 use PHPUnit\Framework\MockObject\MockObject;
 use PHPUnit\Framework\TestCase;

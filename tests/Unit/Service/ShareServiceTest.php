@@ -9,15 +9,15 @@
  */
 
 
-namespace OCA\News\Tests\Unit\Service;
+namespace OCA\NewsYawks\Tests\Unit\Service;
 
-use OCA\News\Service\Exceptions\ServiceNotFoundException;
-use OCA\News\Service\FeedServiceV2;
-use OCA\News\Service\ItemServiceV2;
-use OCA\News\Service\ShareService;
+use OCA\NewsYawks\Service\Exceptions\ServiceNotFoundException;
+use OCA\NewsYawks\Service\FeedServiceV2;
+use OCA\NewsYawks\Service\ItemServiceV2;
+use OCA\NewsYawks\Service\ShareService;
 
-use OCA\News\Db\Feed;
-use OCA\News\Db\Item;
+use OCA\NewsYawks\Db\Feed;
+use OCA\NewsYawks\Db\Item;
 
 use OCP\IURLGenerator;
 use OCP\IUserManager;

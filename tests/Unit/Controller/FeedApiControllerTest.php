@@ -13,17 +13,17 @@
  * @copyright 2018 David Guillot
  */
 
-namespace OCA\News\Tests\Unit\Controller;
+namespace OCA\NewsYawks\Tests\Unit\Controller;
 
 use Exception;
-use OCA\News\Controller\FeedApiController;
-use OCA\News\Service\FeedServiceV2;
-use OCA\News\Service\ItemServiceV2;
+use OCA\NewsYawks\Controller\FeedApiController;
+use OCA\NewsYawks\Service\FeedServiceV2;
+use OCA\NewsYawks\Service\ItemServiceV2;
 use \OCP\AppFramework\Http;
 
-use \OCA\News\Service\Exceptions\ServiceNotFoundException;
-use \OCA\News\Service\Exceptions\ServiceConflictException;
-use \OCA\News\Db\Feed;
+use \OCA\NewsYawks\Service\Exceptions\ServiceNotFoundException;
+use \OCA\NewsYawks\Service\Exceptions\ServiceConflictException;
+use \OCA\NewsYawks\Db\Feed;
 use OCP\IRequest;
 use OCP\IUser;
 use OCP\IUserSession;

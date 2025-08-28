@@ -8,9 +8,9 @@
  * @author Sean Molenaar <sean@seanmolenaar.eu>
  * @copyright Sean Molenaar 2019
  */
-namespace OCA\News\Command;
+namespace OCA\NewsYawks\Command;
 
-use OCA\News\Fetcher\Fetcher;
+use OCA\NewsYawks\Fetcher\Fetcher;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Input\InputArgument;

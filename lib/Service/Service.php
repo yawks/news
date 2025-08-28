@@ -11,11 +11,11 @@
  * @copyright 2012-2014 Bernhard Posselt
  */
 
-namespace OCA\News\Service;
+namespace OCA\NewsYawks\Service;
 
-use OCA\News\Db\NewsMapperV2;
-use OCA\News\Service\Exceptions\ServiceConflictException;
-use OCA\News\Service\Exceptions\ServiceNotFoundException;
+use OCA\NewsYawks\Db\NewsMapperV2;
+use OCA\NewsYawks\Service\Exceptions\ServiceConflictException;
+use OCA\NewsYawks\Service\Exceptions\ServiceNotFoundException;
 use OCP\AppFramework\Db\DoesNotExistException;
 use OCP\AppFramework\Db\Entity;
 use OCP\AppFramework\Db\MultipleObjectsReturnedException;
@@ -24,7 +24,7 @@ use Psr\Log\LoggerInterface;
 /**
  * Class Service
  *
- * @package OCA\News\Service
+ * @package OCA\NewsYawks\Service
  */
 abstract class Service
 {

@@ -11,7 +11,7 @@
  * @copyright 2012-2014 Bernhard Posselt
  */
 
-namespace OCA\News\AppInfo;
+namespace OCA\NewsYawksYawks\AppInfo;
 
 use FeedIo\Explorer;
 use FeedIo\FeedIo;
@@ -19,23 +19,23 @@ use HTMLPurifier;
 use HTMLPurifier_Config;
 use Favicon\Favicon;
 
-use OCA\News\Config\FetcherConfig;
-use OCA\News\Hooks\UserDeleteHook;
-use OCA\News\Search\FeedSearchProvider;
-use OCA\News\Search\FolderSearchProvider;
-use OCA\News\Search\ItemSearchProvider;
-use OCA\News\Listeners\AddMissingIndicesListener;
-use OCA\News\Listeners\UserSettingsListener;
-use OCA\News\Utility\Cache;
+use OCA\NewsYawksYawks\Config\FetcherConfig;
+use OCA\NewsYawksYawks\Hooks\UserDeleteHook;
+use OCA\NewsYawksYawks\Search\FeedSearchProvider;
+use OCA\NewsYawksYawks\Search\FolderSearchProvider;
+use OCA\NewsYawksYawks\Search\ItemSearchProvider;
+use OCA\NewsYawksYawks\Listeners\AddMissingIndicesListener;
+use OCA\NewsYawksYawks\Listeners\UserSettingsListener;
+use OCA\NewsYawksYawks\Utility\Cache;
 
 use OCP\AppFramework\Bootstrap\IBootContext;
 use OCP\AppFramework\Bootstrap\IBootstrap;
 use OCP\AppFramework\Bootstrap\IRegistrationContext;
 use OCP\AppFramework\App;
 
-use OCA\News\Fetcher\FaviconDataAccess;
-use OCA\News\Fetcher\FeedFetcher;
-use OCA\News\Fetcher\Fetcher;
+use OCA\NewsYawksYawks\Fetcher\FaviconDataAccess;
+use OCA\NewsYawksYawks\Fetcher\FeedFetcher;
+use OCA\NewsYawksYawks\Fetcher\Fetcher;
 use OCP\User\Events\BeforeUserDeletedEvent;
 use OCP\Config\BeforePreferenceDeletedEvent;
 use OCP\Config\BeforePreferenceSetEvent;
@@ -46,7 +46,7 @@ use Psr\Log\LoggerInterface;
 /**
  * Class Application
  *
- * @package OCA\News\AppInfo
+ * @package OCA\NewsYawksYawks\AppInfo
  */
 class Application extends App implements IBootstrap
 {
@@ -54,7 +54,7 @@ class Application extends App implements IBootstrap
     /**
      * App Name
      */
-    public const NAME = 'news';
+    public const NAME = 'news_yawks';
 
     /**
      * List of default settings

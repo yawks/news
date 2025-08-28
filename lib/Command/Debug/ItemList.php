@@ -1,11 +1,11 @@
 <?php
 declare(strict_types=1);
 
-namespace OCA\News\Command\Debug;
+namespace OCA\NewsYawks\Command\Debug;
 
-use OCA\News\Controller\ApiPayloadTrait;
-use OCA\News\Db\ListType;
-use OCA\News\Service\ItemServiceV2;
+use OCA\NewsYawks\Controller\ApiPayloadTrait;
+use OCA\NewsYawks\Db\ListType;
+use OCA\NewsYawks\Service\ItemServiceV2;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputInterface;
@@ -15,7 +15,7 @@ use Symfony\Component\Console\Output\OutputInterface;
 /**
  * Class ItemList
  *
- * @package OCA\News\Command
+ * @package OCA\NewsYawks\Command
  */
 class ItemList extends Command
 {

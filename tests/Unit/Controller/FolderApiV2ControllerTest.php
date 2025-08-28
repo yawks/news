@@ -9,16 +9,16 @@
  * @copyright 2020 Paul Tirk
  */
 
-namespace OCA\News\Tests\Unit\Controller;
+namespace OCA\NewsYawks\Tests\Unit\Controller;
 
-use OCA\News\Controller\FolderApiV2Controller;
-use OCA\News\Service\FolderServiceV2;
-use OCA\News\Service\ItemServiceV2;
+use OCA\NewsYawks\Controller\FolderApiV2Controller;
+use OCA\NewsYawks\Service\FolderServiceV2;
+use OCA\NewsYawks\Service\ItemServiceV2;
 use \OCP\AppFramework\Http;
 
-use \OCA\News\Service\Exceptions\ServiceNotFoundException;
+use \OCA\NewsYawks\Service\Exceptions\ServiceNotFoundException;
 
-use \OCA\News\Db\Folder;
+use \OCA\NewsYawks\Db\Folder;
 use OCP\IRequest;
 use OCP\IUser;
 use OCP\IUserSession;

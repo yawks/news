@@ -11,10 +11,10 @@
  * @copyright 2012-2014 Bernhard Posselt
  */
 
-namespace OCA\News\Controller;
+namespace OCA\NewsYawks\Controller;
 
-use OCA\News\Service\OpmlService;
-use OCA\News\Service\Exceptions\ServiceValidationException;
+use OCA\NewsYawks\Service\OpmlService;
+use OCA\NewsYawks\Service\Exceptions\ServiceValidationException;
 use \OCP\IRequest;
 use OCP\IUserSession;
 use OCP\AppFramework\Http\Attribute\NoAdminRequired;
@@ -23,7 +23,7 @@ use OCP\AppFramework\Http\Attribute\NoCSRFRequired;
 /**
  * Class ExportController
  *
- * @package OCA\News\Controller
+ * @package OCA\NewsYawks\Controller
  */
 class ImportController extends Controller
 {

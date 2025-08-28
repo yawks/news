@@ -8,7 +8,7 @@
  * file that was distributed with this source code.
  */
 
-namespace OCA\News\Fetcher\Client;
+namespace OCA\NewsYawks\Fetcher\Client;
 
 use DateTime;
 use FeedIo\Adapter\ClientInterface;

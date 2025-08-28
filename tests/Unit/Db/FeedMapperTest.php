@@ -11,13 +11,13 @@
  * @copyright 2012-2014 Bernhard Posselt
  */
 
-namespace OCA\News\Tests\Unit\Db;
+namespace OCA\NewsYawks\Tests\Unit\Db;
 
 use OC\DB\QueryBuilder\Parameter;
 use OC\DB\ResultAdapter;
-use OCA\News\Db\Feed;
-use OCA\News\Db\FeedMapperV2;
-use OCA\News\Utility\Time;
+use OCA\NewsYawks\Db\Feed;
+use OCA\NewsYawks\Db\FeedMapperV2;
+use OCA\NewsYawks\Utility\Time;
 use OCP\AppFramework\Db\DoesNotExistException;
 use OCP\AppFramework\Db\MultipleObjectsReturnedException;
 use OCP\DB\QueryBuilder\IFunctionBuilder;
@@ -32,7 +32,7 @@ class FeedMapperTest extends MapperTestUtility
     private $feeds;
 
     /**
-     * @covers \OCA\News\Db\FeedMapperV2::__construct
+     * @covers \OCA\NewsYawks\Db\FeedMapperV2::__construct
      */
     protected function setUp(): void
     {
@@ -52,7 +52,7 @@ class FeedMapperTest extends MapperTestUtility
     }
 
     /**
-     * @covers \OCA\News\Db\FeedMapperV2::__construct
+     * @covers \OCA\NewsYawks\Db\FeedMapperV2::__construct
      */
     public function testSetUpSuccess(): void
     {
@@ -60,7 +60,7 @@ class FeedMapperTest extends MapperTestUtility
     }
 
     /**
-     * @covers \OCA\News\Db\FeedMapperV2::findAllFromUser
+     * @covers \OCA\NewsYawks\Db\FeedMapperV2::findAllFromUser
      */
     public function testFindAllFromUser()
     {
@@ -135,7 +135,7 @@ class FeedMapperTest extends MapperTestUtility
     }
 
     /**
-     * @covers \OCA\News\Db\FeedMapperV2::findFromUser
+     * @covers \OCA\NewsYawks\Db\FeedMapperV2::findFromUser
      */
     public function testFindFromUser()
     {
@@ -184,7 +184,7 @@ class FeedMapperTest extends MapperTestUtility
     }
 
     /**
-     * @covers \OCA\News\Db\FeedMapperV2::findFromUser
+     * @covers \OCA\NewsYawks\Db\FeedMapperV2::findFromUser
      */
     public function testFindFromUserEmpty()
     {
@@ -232,7 +232,7 @@ class FeedMapperTest extends MapperTestUtility
     }
 
     /**
-     * @covers \OCA\News\Db\FeedMapperV2::findByURL
+     * @covers \OCA\NewsYawks\Db\FeedMapperV2::findByURL
      */
     public function testFindByUrl()
     {
@@ -281,7 +281,7 @@ class FeedMapperTest extends MapperTestUtility
     }
 
     /**
-     * @covers \OCA\News\Db\FeedMapperV2::findFromUser
+     * @covers \OCA\NewsYawks\Db\FeedMapperV2::findFromUser
      */
     public function testFindFromUserDuplicate()
     {
@@ -331,7 +331,7 @@ class FeedMapperTest extends MapperTestUtility
     }
 
     /**
-     * @covers \OCA\News\Db\FeedMapperV2::findAll
+     * @covers \OCA\NewsYawks\Db\FeedMapperV2::findAll
      */
     public function testFindAll()
     {
@@ -371,7 +371,7 @@ class FeedMapperTest extends MapperTestUtility
     }
 
     /**
-     * @covers \OCA\News\Db\FeedMapperV2::findAllFromFolder
+     * @covers \OCA\NewsYawks\Db\FeedMapperV2::findAllFromFolder
      */
     public function testFindAllFromFolder()
     {
@@ -416,7 +416,7 @@ class FeedMapperTest extends MapperTestUtility
     }
 
     /**
-     * @covers \OCA\News\Db\FeedMapperV2::findAllFromFolder
+     * @covers \OCA\NewsYawks\Db\FeedMapperV2::findAllFromFolder
      */
     public function testFindAllFromRootFolder()
     {
@@ -456,7 +456,7 @@ class FeedMapperTest extends MapperTestUtility
     }
 
     /**
-     * @covers \OCA\News\Db\FeedMapperV2::read
+     * @covers \OCA\NewsYawks\Db\FeedMapperV2::read
      */
     public function testRead()
     {
@@ -558,7 +558,7 @@ class FeedMapperTest extends MapperTestUtility
     }
 
     /**
-     * @covers \OCA\News\Db\FeedMapperV2::read
+     * @covers \OCA\NewsYawks\Db\FeedMapperV2::read
      */
     public function testReadWithMaxID()
     {

@@ -11,20 +11,20 @@
  * @copyright 2012-2014 Bernhard Posselt
  */
 
-namespace OCA\News\Service;
+namespace OCA\NewsYawks\Service;
 
 use OC\AppFramework\Utility\TimeFactory;
-use OCA\News\Db\Folder;
-use OCA\News\Db\FolderMapperV2;
-use OCA\News\Service\Exceptions\ServiceConflictException;
-use OCA\News\Service\Exceptions\ServiceNotFoundException;
+use OCA\NewsYawks\Db\Folder;
+use OCA\NewsYawks\Db\FolderMapperV2;
+use OCA\NewsYawks\Service\Exceptions\ServiceConflictException;
+use OCA\NewsYawks\Service\Exceptions\ServiceNotFoundException;
 use OCP\AppFramework\Db\Entity;
 use Psr\Log\LoggerInterface;
 
 /**
  * Class FolderService
  *
- * @package OCA\News\Service
+ * @package OCA\NewsYawks\Service
  */
 class FolderServiceV2 extends Service
 {

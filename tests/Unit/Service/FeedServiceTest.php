@@ -12,22 +12,22 @@
  */
 
 
-namespace OCA\News\Tests\Unit\Service;
+namespace OCA\NewsYawks\Tests\Unit\Service;
 
 use FeedIo\Explorer;
 use FeedIo\Reader\ReadErrorException;
 
-use OCA\News\Db\FeedMapperV2;
-use OCA\News\Fetcher\FeedFetcher;
-use OCA\News\Service\Exceptions\ServiceNotFoundException;
-use OCA\News\Service\FeedServiceV2;
-use OCA\News\Service\ItemServiceV2;
-use OCA\News\Utility\Time;
+use OCA\NewsYawks\Db\FeedMapperV2;
+use OCA\NewsYawks\Fetcher\FeedFetcher;
+use OCA\NewsYawks\Service\Exceptions\ServiceNotFoundException;
+use OCA\NewsYawks\Service\FeedServiceV2;
+use OCA\NewsYawks\Service\ItemServiceV2;
+use OCA\NewsYawks\Utility\Time;
 use OCP\AppFramework\Db\DoesNotExistException;
 use OCP\IAppConfig;
 
-use OCA\News\Db\Feed;
-use OCA\News\Db\Item;
+use OCA\NewsYawks\Db\Feed;
+use OCA\NewsYawks\Db\Item;
 
 use PHPUnit\Framework\TestCase;
 use Psr\Log\LoggerInterface;
@@ -136,7 +136,7 @@ class FeedServiceTest extends TestCase
     }
 
     /**
-     * @covers \OCA\News\Service\FeedServiceV2::findAll
+     * @covers \OCA\NewsYawks\Service\FeedServiceV2::findAll
      */
     public function testFindAll()
     {
@@ -732,7 +732,7 @@ class FeedServiceTest extends TestCase
 
     public function testPatchDoesNotExist()
     {
-        $this->expectException('OCA\News\Service\Exceptions\ServiceNotFoundException');
+        $this->expectException('OCA\NewsYawks\Service\Exceptions\ServiceNotFoundException');
         $feed = Feed::fromRow(['id' => 3]);
         $this->mapper->expects($this->once())
             ->method('findFromUser')

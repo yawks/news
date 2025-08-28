@@ -6,14 +6,14 @@
  * later. See the COPYING file.
  */
 
-namespace OCA\News\Command\Updater;
+namespace OCA\NewsYawks\Command\Updater;
 
 use DateTime;
 use DateInterval;
 use OCP\IAppConfig;
-use OCA\News\AppInfo\Application;
-use OCA\News\Service\StatusService;
-use OCA\News\Service\UpdaterService;
+use OCA\NewsYawks\AppInfo\Application;
+use OCA\NewsYawks\Service\StatusService;
+use OCA\NewsYawks\Service\UpdaterService;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputOption;
 use Symfony\Component\Console\Input\InputInterface;

@@ -1,9 +1,9 @@
 <?php
 
-namespace OCA\News\Search;
+namespace OCA\NewsYawks\Search;
 
-use OCA\News\Db\Feed;
-use OCA\News\Service\FeedServiceV2;
+use OCA\NewsYawks\Db\Feed;
+use OCA\NewsYawks\Service\FeedServiceV2;
 use OCP\IL10N;
 use OCP\IURLGenerator;
 use OCP\IUser;

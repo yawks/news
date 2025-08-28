@@ -11,17 +11,17 @@
  * @copyright 2012-2014 Bernhard Posselt
  */
 
-namespace OCA\News\Controller;
+namespace OCA\NewsYawks\Controller;
 
-use OCA\News\Service\Exceptions\ServiceException;
+use OCA\NewsYawks\Service\Exceptions\ServiceException;
 use OCP\AppFramework\Http\JSONResponse;
 use \OCP\IRequest;
 use \OCP\AppFramework\Http;
 use OCP\AppFramework\Http\Attribute\NoAdminRequired;
 
-use \OCA\News\Service\FolderServiceV2;
-use \OCA\News\Service\Exceptions\ServiceNotFoundException;
-use \OCA\News\Service\Exceptions\ServiceConflictException;
+use \OCA\NewsYawks\Service\FolderServiceV2;
+use \OCA\NewsYawks\Service\Exceptions\ServiceNotFoundException;
+use \OCA\NewsYawks\Service\Exceptions\ServiceConflictException;
 use OCP\IUserSession;
 
 class FolderController extends Controller

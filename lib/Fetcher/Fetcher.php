@@ -11,7 +11,7 @@
  * @copyright 2012-2014 Bernhard Posselt
  */
 
-namespace OCA\News\Fetcher;
+namespace OCA\NewsYawks\Fetcher;
 
 use FeedIo\Reader\ReadErrorException;
 

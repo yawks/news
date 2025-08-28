@@ -9,11 +9,11 @@
  * @copyright 2024 Ben Vidulich
  */
 
-namespace OCA\News\Fetcher;
+namespace OCA\NewsYawks\Fetcher;
 
 use Favicon\DataAccess;
 
-use OCA\News\Config\FetcherConfig;
+use OCA\NewsYawks\Config\FetcherConfig;
 
 /**
  * Modified version of DataAccess with a configurable user agent header.

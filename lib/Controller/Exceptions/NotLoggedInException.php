@@ -1,7 +1,7 @@
 <?php
 
 
-namespace OCA\News\Controller\Exceptions;
+namespace OCA\NewsYawks\Controller\Exceptions;
 
 use Throwable;
 

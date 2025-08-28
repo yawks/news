@@ -1,11 +1,11 @@
 <?php
 declare(strict_types=1);
 
-namespace OCA\News\Search;
+namespace OCA\NewsYawks\Search;
 
-use OCA\News\Service\ItemServiceV2;
-use OCA\News\AppInfo\Application;
-use OCA\News\Db\ListType;
+use OCA\NewsYawks\Service\ItemServiceV2;
+use OCA\NewsYawks\AppInfo\Application;
+use OCA\NewsYawks\Db\ListType;
 use OCP\IL10N;
 use OCP\IURLGenerator;
 use OCP\IUser;
@@ -17,7 +17,7 @@ use OCP\Search\SearchResultEntry;
 /**
  * Class ItemSearchProvider
  *
- * @package OCA\News\Search
+ * @package OCA\NewsYawks\Search
  */
 class ItemSearchProvider implements IProvider
 {

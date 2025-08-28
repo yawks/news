@@ -11,13 +11,13 @@
  * @copyright 2012-2014 Bernhard Posselt
  */
 
-namespace OCA\News\Service;
+namespace OCA\NewsYawks\Service;
 
-use OCA\News\AppInfo\Application;
+use OCA\NewsYawks\AppInfo\Application;
 use OCP\IAppConfig;
 use OCP\IDBConnection;
 use OCP\BackgroundJob\IJobList;
-use OCA\News\Cron\UpdaterJob;
+use OCA\NewsYawks\Cron\UpdaterJob;
 
 class StatusService
 {

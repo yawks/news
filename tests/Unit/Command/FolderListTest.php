@@ -18,11 +18,11 @@
  *
  */
 
-namespace OCA\News\Tests\Unit\Command;
+namespace OCA\NewsYawks\Tests\Unit\Command;
 
-use OCA\News\Command\Config\FolderList;
-use OCA\News\Db\Folder;
-use OCA\News\Service\FolderServiceV2;
+use OCA\NewsYawks\Command\Config\FolderList;
+use OCA\NewsYawks\Db\Folder;
+use OCA\NewsYawks\Service\FolderServiceV2;
 use PHPUnit\Framework\MockObject\MockObject;
 use PHPUnit\Framework\TestCase;
 use Symfony\Component\Console\Input\InputInterface;

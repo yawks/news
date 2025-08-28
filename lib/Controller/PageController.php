@@ -11,10 +11,10 @@
  * @copyright 2012-2014 Bernhard Posselt
  */
 
-namespace OCA\News\Controller;
+namespace OCA\NewsYawks\Controller;
 
-use OCA\News\AppInfo\Application;
-use OCA\News\Explore\Exceptions\RecommendedSiteNotFoundException;
+use OCA\NewsYawks\AppInfo\Application;
+use OCA\NewsYawks\Explore\Exceptions\RecommendedSiteNotFoundException;
 use OCP\IRequest;
 use OCP\IAppConfig;
 use OCP\Util;
@@ -28,9 +28,9 @@ use OCP\AppFramework\Services\IInitialState;
 use OCP\AppFramework\Http\Attribute\NoAdminRequired;
 use OCP\AppFramework\Http\Attribute\NoCSRFRequired;
 
-use OCA\News\Service\StatusService;
-use OCA\News\Explore\RecommendedSites;
-use OCA\News\Db\ListType;
+use OCA\NewsYawks\Service\StatusService;
+use OCA\NewsYawks\Explore\RecommendedSites;
+use OCA\NewsYawks\Db\ListType;
 use OCP\IUserSession;
 
 class PageController extends Controller

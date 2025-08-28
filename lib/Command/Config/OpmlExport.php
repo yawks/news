@@ -1,8 +1,8 @@
 <?php
 
-namespace OCA\News\Command\Config;
+namespace OCA\NewsYawks\Command\Config;
 
-use OCA\News\Service\OpmlService;
+use OCA\NewsYawks\Service\OpmlService;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputInterface;

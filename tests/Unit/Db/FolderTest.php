@@ -11,9 +11,9 @@
  * @copyright 2012-2014 Bernhard Posselt
  */
 
-namespace OCA\News\Tests\Unit\Db;
+namespace OCA\NewsYawks\Tests\Unit\Db;
 
-use OCA\News\Db\Folder;
+use OCA\NewsYawks\Db\Folder;
 use PHPUnit\Framework\TestCase;
 
 class FolderTest extends TestCase

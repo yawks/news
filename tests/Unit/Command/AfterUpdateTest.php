@@ -18,12 +18,12 @@
  *
  */
 
-namespace OCA\News\Tests\Unit\Command;
+namespace OCA\NewsYawks\Tests\Unit\Command;
 
-use OCA\News\Command\Updater\AfterUpdate;
-use OCA\News\Fetcher\Fetcher;
-use OCA\News\Service\Exceptions\ServiceNotFoundException;
-use OCA\News\Service\ItemServiceV2;
+use OCA\NewsYawks\Command\Updater\AfterUpdate;
+use OCA\NewsYawks\Fetcher\Fetcher;
+use OCA\NewsYawks\Service\Exceptions\ServiceNotFoundException;
+use OCA\NewsYawks\Service\ItemServiceV2;
 use PHPUnit\Framework\MockObject\MockObject;
 use PHPUnit\Framework\TestCase;
 use Symfony\Component\Console\Input\InputInterface;

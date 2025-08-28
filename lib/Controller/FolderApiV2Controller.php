@@ -9,7 +9,7 @@
  * @copyright 2020 Paul Tirk
  */
 
-namespace OCA\News\Controller;
+namespace OCA\NewsYawks\Controller;
 
 use \OCP\IRequest;
 use \OCP\IUserSession;
@@ -18,9 +18,9 @@ use OCP\AppFramework\Http\Attribute\NoAdminRequired;
 use OCP\AppFramework\Http\Attribute\NoCSRFRequired;
 use OCP\AppFramework\Http\Attribute\CORS;
 
-use \OCA\News\Service\FolderServiceV2;
-use \OCA\News\Service\ItemServiceV2;
-use \OCA\News\Service\Exceptions\ServiceNotFoundException;
+use \OCA\NewsYawks\Service\FolderServiceV2;
+use \OCA\NewsYawks\Service\ItemServiceV2;
+use \OCA\NewsYawks\Service\Exceptions\ServiceNotFoundException;
 
 class FolderApiV2Controller extends ApiController
 {

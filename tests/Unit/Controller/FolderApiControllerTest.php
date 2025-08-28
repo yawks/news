@@ -13,18 +13,18 @@
  * @copyright 2018 David Guillot
  */
 
-namespace OCA\News\Tests\Unit\Controller;
+namespace OCA\NewsYawks\Tests\Unit\Controller;
 
-use OCA\News\Controller\FolderApiController;
-use OCA\News\Service\FolderServiceV2;
-use OCA\News\Service\ItemService;
+use OCA\NewsYawks\Controller\FolderApiController;
+use OCA\NewsYawks\Service\FolderServiceV2;
+use OCA\NewsYawks\Service\ItemService;
 use \OCP\AppFramework\Http;
 
-use \OCA\News\Service\Exceptions\ServiceNotFoundException;
-use \OCA\News\Service\Exceptions\ServiceConflictException;
-use \OCA\News\Service\Exceptions\ServiceValidationException;
+use \OCA\NewsYawks\Service\Exceptions\ServiceNotFoundException;
+use \OCA\NewsYawks\Service\Exceptions\ServiceConflictException;
+use \OCA\NewsYawks\Service\Exceptions\ServiceValidationException;
 
-use \OCA\News\Db\Folder;
+use \OCA\NewsYawks\Db\Folder;
 use OCP\IRequest;
 use OCP\IUser;
 use OCP\IUserSession;

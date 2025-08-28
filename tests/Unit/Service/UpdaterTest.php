@@ -11,12 +11,12 @@
  * @copyright 2012-2014 Bernhard Posselt
  */
 
-namespace OCA\News\Tests\Unit\Service;
+namespace OCA\NewsYawks\Tests\Unit\Service;
 
-use OCA\News\Service\FeedServiceV2;
-use OCA\News\Service\FolderServiceV2;
-use OCA\News\Service\ItemServiceV2;
-use OCA\News\Service\UpdaterService;
+use OCA\NewsYawks\Service\FeedServiceV2;
+use OCA\NewsYawks\Service\FolderServiceV2;
+use OCA\NewsYawks\Service\ItemServiceV2;
+use OCA\NewsYawks\Service\UpdaterService;
 use PHPUnit\Framework\TestCase;
 use OCP\BackgroundJob\IJobList;
 use OCP\BackgroundJob\IJob;

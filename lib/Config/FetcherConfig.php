@@ -11,14 +11,14 @@
  * @copyright 2012-2014 Bernhard Posselt
  */
 
-namespace OCA\News\Config;
+namespace OCA\NewsYawks\Config;
 
 use FeedIo\Adapter\ClientInterface;
 use Psr\Log\LoggerInterface;
 use \GuzzleHttp\Client;
 use \GuzzleHttp\Psr7\Uri;
-use OCA\News\AppInfo\Application;
-use OCA\News\Fetcher\Client\FeedIoClient;
+use OCA\NewsYawks\AppInfo\Application;
+use OCA\NewsYawks\Fetcher\Client\FeedIoClient;
 use OCP\IConfig;
 use OCP\IAppConfig;
 use OCP\App\IAppManager;
@@ -26,7 +26,7 @@ use OCP\App\IAppManager;
 /**
  * Class FetcherConfig
  *
- * @package OCA\News\Config
+ * @package OCA\NewsYawks\Config
  */
 class FetcherConfig
 {

@@ -18,10 +18,10 @@
  *
  */
 
-namespace OCA\News\Tests\Unit\Command;
+namespace OCA\NewsYawks\Tests\Unit\Command;
 
-use OCA\News\Command\Updater\BeforeUpdate;
-use OCA\News\Service\UpdaterService;
+use OCA\NewsYawks\Command\Updater\BeforeUpdate;
+use OCA\NewsYawks\Service\UpdaterService;
 use PHPUnit\Framework\MockObject\MockObject;
 use PHPUnit\Framework\TestCase;
 use Symfony\Component\Console\Input\InputInterface;

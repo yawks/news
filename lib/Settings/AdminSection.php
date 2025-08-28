@@ -1,6 +1,6 @@
 <?php
 
-namespace OCA\News\Settings;
+namespace OCA\NewsYawks\Settings;
 
 use OCP\IL10N;
 use OCP\IURLGenerator;

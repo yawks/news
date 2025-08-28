@@ -6,7 +6,7 @@
  * later. See the COPYING file.
  */
 
-namespace OCA\News\Utility;
+namespace OCA\NewsYawks\Utility;
 
 use \DOMDocument;
 use \DOMElement;

@@ -1,10 +1,10 @@
 <?php
 
-namespace OCA\News\Search;
+namespace OCA\NewsYawks\Search;
 
-use OCA\News\Db\Item;
-use OCA\News\Db\ListType;
-use OCA\News\Service\ItemServiceV2;
+use OCA\NewsYawks\Db\Item;
+use OCA\NewsYawks\Db\ListType;
+use OCA\NewsYawks\Service\ItemServiceV2;
 use OCP\IL10N;
 use OCP\IURLGenerator;
 use OCP\IUser;

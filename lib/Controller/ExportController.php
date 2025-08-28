@@ -11,12 +11,12 @@
  * @copyright 2012-2014 Bernhard Posselt
  */
 
-namespace OCA\News\Controller;
+namespace OCA\NewsYawks\Controller;
 
-use OCA\News\Service\FeedServiceV2;
-use OCA\News\Service\FolderServiceV2;
-use OCA\News\Service\ItemServiceV2;
-use OCA\News\Service\OpmlService;
+use OCA\NewsYawks\Service\FeedServiceV2;
+use OCA\NewsYawks\Service\FolderServiceV2;
+use OCA\NewsYawks\Service\ItemServiceV2;
+use OCA\NewsYawks\Service\OpmlService;
 use OCP\AppFramework\Http\DataDownloadResponse;
 use \OCP\IRequest;
 use \OCP\AppFramework\Http\JSONResponse;
@@ -28,7 +28,7 @@ use OCP\AppFramework\Http\Attribute\CORS;
 /**
  * Class ExportController
  *
- * @package OCA\News\Controller
+ * @package OCA\NewsYawks\Controller
  */
 class ExportController extends Controller
 {

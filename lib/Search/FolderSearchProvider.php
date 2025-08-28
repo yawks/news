@@ -1,11 +1,11 @@
 <?php
 declare(strict_types=1);
 
-namespace OCA\News\Search;
+namespace OCA\NewsYawks\Search;
 
-use OCA\News\AppInfo\Application;
-use OCA\News\Db\Folder;
-use OCA\News\Service\FolderServiceV2;
+use OCA\NewsYawks\AppInfo\Application;
+use OCA\NewsYawks\Db\Folder;
+use OCA\NewsYawks\Service\FolderServiceV2;
 use OCP\IL10N;
 use OCP\IURLGenerator;
 use OCP\IUser;
@@ -17,7 +17,7 @@ use OCP\Search\SearchResultEntry;
 /**
  * Class FolderSearchProvider
  *
- * @package OCA\News\Search
+ * @package OCA\NewsYawks\Search
  */
 class FolderSearchProvider implements IProvider
 {

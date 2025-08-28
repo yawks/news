@@ -22,10 +22,10 @@
  * License along with this library.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-namespace OCA\News\Tests\Unit\Fetcher;
+namespace OCA\NewsYawks\Tests\Unit\Fetcher;
 
-use OCA\News\Fetcher\Fetcher;
-use OCA\News\Fetcher\IFeedFetcher;
+use OCA\NewsYawks\Fetcher\Fetcher;
+use OCA\NewsYawks\Fetcher\IFeedFetcher;
 use PHPUnit\Framework\TestCase;
 
 class FetcherTest extends TestCase

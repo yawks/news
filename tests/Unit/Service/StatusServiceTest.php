@@ -11,9 +11,9 @@
  * @copyright 2012-2014 Bernhard Posselt
  */
 
-namespace OCA\News\Tests\Unit\Service;
+namespace OCA\NewsYawks\Tests\Unit\Service;
 
-use OCA\News\Service\StatusService;
+use OCA\NewsYawks\Service\StatusService;
 use OCP\IAppConfig;
 use OCP\IDBConnection;
 use OCP\BackgroundJob\IJobList;

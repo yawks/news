@@ -9,7 +9,7 @@
  * @copyright Bernhard Posselt 2014
  */
 
-namespace OCA\News\Controller;
+namespace OCA\NewsYawks\Controller;
 
 use \OCP\AppFramework\Http\JSONResponse;
 

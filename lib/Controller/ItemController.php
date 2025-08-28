@@ -11,27 +11,27 @@
  * @copyright 2012-2014 Bernhard Posselt
  */
 
-namespace OCA\News\Controller;
+namespace OCA\NewsYawks\Controller;
 
-use OCA\News\Db\ListType;
-use OCA\News\Service\Exceptions\ServiceConflictException;
-use OCA\News\Service\FeedServiceV2;
+use OCA\NewsYawks\Db\ListType;
+use OCA\NewsYawks\Service\Exceptions\ServiceConflictException;
+use OCA\NewsYawks\Service\FeedServiceV2;
 use OCP\AppFramework\Http\JSONResponse;
 use \OCP\IRequest;
 use \OCP\IConfig;
 use \OCP\AppFramework\Http;
 use OCP\AppFramework\Http\Attribute\NoAdminRequired;
 
-use \OCA\News\Service\Exceptions\ServiceException;
-use \OCA\News\Service\Exceptions\ServiceNotFoundException;
-use \OCA\News\Service\ItemServiceV2;
-use \OCA\News\Service\ShareService;
+use \OCA\NewsYawks\Service\Exceptions\ServiceException;
+use \OCA\NewsYawks\Service\Exceptions\ServiceNotFoundException;
+use \OCA\NewsYawks\Service\ItemServiceV2;
+use \OCA\NewsYawks\Service\ShareService;
 use OCP\IUserSession;
 
 /**
  * Class ItemController
  *
- * @package OCA\News\Controller
+ * @package OCA\NewsYawks\Controller
  */
 class ItemController extends Controller
 {

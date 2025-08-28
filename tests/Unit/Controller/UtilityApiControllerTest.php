@@ -13,11 +13,11 @@
  * @copyright 2018 David Guillot
  */
 
-namespace OCA\News\Tests\Unit\Controller;
+namespace OCA\NewsYawks\Tests\Unit\Controller;
 
-use OCA\News\Controller\UtilityApiController;
-use OCA\News\Service\StatusService;
-use OCA\News\Service\UpdaterService;
+use OCA\NewsYawks\Controller\UtilityApiController;
+use OCA\NewsYawks\Service\StatusService;
+use OCA\NewsYawks\Service\UpdaterService;
 use OCP\IAppConfig;
 use OCP\IRequest;
 use OCP\IUser;

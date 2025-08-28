@@ -11,7 +11,7 @@
  * @copyright 2012-2014 Bernhard Posselt
  */
 
-namespace OCA\News\Service;
+namespace OCA\NewsYawks\Service;
 
 use DateTime;
 use FeedIo\Explorer;
@@ -19,23 +19,23 @@ use FeedIo\Reader\ReadErrorException;
 use FeedIo\Reader\NoAccurateParserException;
 use HTMLPurifier;
 
-use OCA\News\Db\FeedMapperV2;
-use OCA\News\Fetcher\FeedFetcher;
-use OCA\News\AppInfo\Application;
-use OCA\News\Service\Exceptions\ServiceConflictException;
-use OCA\News\Service\Exceptions\ServiceNotFoundException;
+use OCA\NewsYawks\Db\FeedMapperV2;
+use OCA\NewsYawks\Fetcher\FeedFetcher;
+use OCA\NewsYawks\AppInfo\Application;
+use OCA\NewsYawks\Service\Exceptions\ServiceConflictException;
+use OCA\NewsYawks\Service\Exceptions\ServiceNotFoundException;
 use OCP\AppFramework\Db\Entity;
 use OCP\AppFramework\Db\DoesNotExistException;
 use OCP\IAppConfig;
 
-use OCA\News\Db\Feed;
-use OCA\News\Db\Item;
+use OCA\NewsYawks\Db\Feed;
+use OCA\NewsYawks\Db\Item;
 use Psr\Log\LoggerInterface;
 
 /**
  * Class FeedService
  *
- * @package OCA\News\Service
+ * @package OCA\NewsYawks\Service
  */
 class FeedServiceV2 extends Service
 {

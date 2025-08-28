@@ -21,7 +21,7 @@
  */
 
 
-namespace OCA\News\Tests\Unit\Db;
+namespace OCA\NewsYawks\Tests\Unit\Db;
 
 use OCP\DB\IResult;
 use OCP\DB\QueryBuilder\IQueryBuilder;

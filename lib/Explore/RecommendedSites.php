@@ -11,9 +11,9 @@
  * @copyright 2012-2014 Bernhard Posselt
  */
 
-namespace OCA\News\Explore;
+namespace OCA\NewsYawks\Explore;
 
-use OCA\News\Explore\Exceptions\RecommendedSiteNotFoundException;
+use OCA\NewsYawks\Explore\Exceptions\RecommendedSiteNotFoundException;
 
 class RecommendedSites
 {

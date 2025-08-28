@@ -12,14 +12,14 @@
  */
 
 
-namespace OCA\News\Tests\Unit\Service;
+namespace OCA\NewsYawks\Tests\Unit\Service;
 
-use OCA\News\Service\FeedServiceV2;
-use OCA\News\Service\ImportService;
-use OCA\News\Service\ItemServiceV2;
+use OCA\NewsYawks\Service\FeedServiceV2;
+use OCA\NewsYawks\Service\ImportService;
+use OCA\NewsYawks\Service\ItemServiceV2;
 
-use OCA\News\Db\Feed;
-use OCA\News\Db\Item;
+use OCA\NewsYawks\Db\Feed;
+use OCA\NewsYawks\Db\Item;
 
 use PHPUnit\Framework\TestCase;
 use Psr\Log\LoggerInterface;

@@ -1,11 +1,11 @@
 <?php
 
-namespace OCA\News\Controller;
+namespace OCA\NewsYawks\Controller;
 
 use \OCP\AppFramework\Http;
 use \OCP\AppFramework\Http\JSONResponse;
 
-use OCA\News\Db\IAPI;
+use OCA\NewsYawks\Db\IAPI;
 
 trait ApiPayloadTrait
 {

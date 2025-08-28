@@ -12,14 +12,14 @@
  */
 
 
-namespace OCA\News\Service;
+namespace OCA\NewsYawks\Service;
 
-use OCA\News\Service\Exceptions\ServiceConflictException;
-use OCA\News\Service\Exceptions\ServiceNotFoundException;
-use OCA\News\Service\Exceptions\ServiceValidationException;
-use OCA\News\Utility\OPMLExporter;
-use OCA\News\Utility\OPMLImporter;
-use OCA\News\Db\Folder;
+use OCA\NewsYawks\Service\Exceptions\ServiceConflictException;
+use OCA\NewsYawks\Service\Exceptions\ServiceNotFoundException;
+use OCA\NewsYawks\Service\Exceptions\ServiceValidationException;
+use OCA\NewsYawks\Utility\OPMLExporter;
+use OCA\NewsYawks\Utility\OPMLImporter;
+use OCA\NewsYawks\Db\Folder;
 use Psr\Log\LoggerInterface;
 
 class OpmlService

@@ -11,11 +11,11 @@
  * @copyright 2012-2014 Bernhard Posselt
  */
 
-namespace OCA\News\Tests\Unit\Utility;
+namespace OCA\NewsYawks\Tests\Unit\Utility;
 
-use \OCA\News\Db\Folder;
-use \OCA\News\Db\Feed;
-use OCA\News\Utility\OPMLExporter;
+use \OCA\NewsYawks\Db\Folder;
+use \OCA\NewsYawks\Db\Feed;
+use OCA\NewsYawks\Utility\OPMLExporter;
 use PHPUnit\Framework\TestCase;
 
 class OPMLExporterTest extends TestCase

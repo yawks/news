@@ -11,7 +11,7 @@
  * @copyright 2012-2014 Bernhard Posselt
  */
 
-namespace OCA\News\Tests\Unit\Fetcher;
+namespace OCA\NewsYawks\Tests\Unit\Fetcher;
 
 use DateTime;
 use Favicon\Favicon;
@@ -24,14 +24,14 @@ use FeedIo\FeedInterface;
 use FeedIo\FeedIo;
 use FeedIo\Reader\Result;
 use OC\L10N\L10N;
-use \OCA\News\Db\Feed;
-use \OCA\News\Db\Item;
-use OCA\News\Scraper\Scraper;
-use OCA\News\Fetcher\FeedFetcher;
-use OCA\News\Config\FetcherConfig;
+use \OCA\NewsYawks\Db\Feed;
+use \OCA\NewsYawks\Db\Item;
+use OCA\NewsYawks\Scraper\Scraper;
+use OCA\NewsYawks\Fetcher\FeedFetcher;
+use OCA\NewsYawks\Config\FetcherConfig;
 
-use OCA\News\Utility\Time;
-use OCA\News\Utility\Cache;
+use OCA\NewsYawks\Utility\Time;
+use OCA\NewsYawks\Utility\Cache;
 use OCP\IL10N;
 use OCP\ITempManager;
 
@@ -42,7 +42,7 @@ use Psr\Log\LoggerInterface;
 /**
  * Class FeedFetcherTest
  *
- * @package OCA\News\Tests\Unit\Fetcher
+ * @package OCA\NewsYawks\Tests\Unit\Fetcher
  */
 class FeedFetcherTest extends TestCase
 {

@@ -11,7 +11,7 @@
  * @copyright 2012-2014 Bernhard Posselt
  */
 
-namespace OCA\News\Fetcher;
+namespace OCA\NewsYawks\Fetcher;
 
 use DateTime;
 use Favicon\Favicon;
@@ -26,12 +26,12 @@ use GuzzleHttp\Exception\ConnectException;
 
 use OCP\IL10N;
 
-use OCA\News\Db\Item;
-use OCA\News\Db\Feed;
-use OCA\News\Utility\Time;
-use OCA\News\Utility\Cache;
-use OCA\News\Scraper\Scraper;
-use OCA\News\Config\FetcherConfig;
+use OCA\NewsYawks\Db\Item;
+use OCA\NewsYawks\Db\Feed;
+use OCA\NewsYawks\Utility\Time;
+use OCA\NewsYawks\Utility\Cache;
+use OCA\NewsYawks\Scraper\Scraper;
+use OCA\NewsYawks\Config\FetcherConfig;
 use Psr\Log\LoggerInterface;
 use SimpleXMLElement;
 

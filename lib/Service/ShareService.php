@@ -8,23 +8,23 @@
  * @author    Marco Nassabain <marco.nassabain@hotmail.com>
  */
 
-namespace OCA\News\Service;
+namespace OCA\NewsYawks\Service;
 
-use \OCA\News\Db\Item;
-use \OCA\News\Db\Feed;
+use \OCA\NewsYawks\Db\Item;
+use \OCA\NewsYawks\Db\Feed;
 
 use \Psr\Log\LoggerInterface;
 use OCP\IURLGenerator;
 use OCP\IUserManager;
 use \OCP\IL10N;
 
-use OCA\News\Service\Exceptions\ServiceNotFoundException;
+use OCA\NewsYawks\Service\Exceptions\ServiceNotFoundException;
 use OCP\AppFramework\Db\DoesNotExistException;
 
 /**
  * Class ShareService
  *
- * @package OCA\News\Service
+ * @package OCA\NewsYawks\Service
  */
 class ShareService
 {

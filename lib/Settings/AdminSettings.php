@@ -1,9 +1,9 @@
 <?php
 
-namespace OCA\News\Settings;
+namespace OCA\NewsYawks\Settings;
 
-use OCA\News\AppInfo\Application;
-use OCA\News\Service\StatusService;
+use OCA\NewsYawks\AppInfo\Application;
+use OCA\NewsYawks\Service\StatusService;
 use OCP\AppFramework\Http\TemplateResponse;
 use OCP\IAppConfig;
 use OCP\Settings\ISettings;

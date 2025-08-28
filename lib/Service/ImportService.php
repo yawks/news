@@ -11,10 +11,10 @@
  * @copyright 2012-2014 Bernhard Posselt
  */
 
-namespace OCA\News\Service;
+namespace OCA\NewsYawks\Service;
 
-use \OCA\News\Db\Item;
-use \OCA\News\Db\Feed;
+use \OCA\NewsYawks\Db\Item;
+use \OCA\NewsYawks\Db\Feed;
 
 use \Psr\Log\LoggerInterface;
 use \HTMLPurifier;
@@ -22,7 +22,7 @@ use \HTMLPurifier;
 /**
  * Class ImportService
  *
- * @package OCA\News\Service
+ * @package OCA\NewsYawks\Service
  */
 class ImportService
 {

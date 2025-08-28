@@ -13,14 +13,14 @@
  * @copyright 2018 David Guillot
  */
 
-namespace OCA\News\Tests\Unit\Controller;
+namespace OCA\NewsYawks\Tests\Unit\Controller;
 
-use OCA\News\Controller\ItemApiController;
-use OCA\News\Service\ItemServiceV2;
+use OCA\NewsYawks\Controller\ItemApiController;
+use OCA\NewsYawks\Service\ItemServiceV2;
 use \OCP\AppFramework\Http;
 
-use \OCA\News\Service\Exceptions\ServiceNotFoundException;
-use \OCA\News\Db\Item;
+use \OCA\NewsYawks\Service\Exceptions\ServiceNotFoundException;
+use \OCA\NewsYawks\Db\Item;
 use OCP\IRequest;
 use OCP\IUser;
 use OCP\IUserSession;

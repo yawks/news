@@ -11,7 +11,7 @@
  * @copyright 2012-2014 Bernhard Posselt
  */
 
-namespace OCA\News\Service\Exceptions;
+namespace OCA\NewsYawks\Service\Exceptions;
 
 use Exception;
 use OCP\AppFramework\Db\IMapperException;
@@ -19,7 +19,7 @@ use OCP\AppFramework\Db\IMapperException;
 /**
  * Class ServiceException
  *
- * @package OCA\News\Service\Exceptions
+ * @package OCA\NewsYawks\Service\Exceptions
  */
 abstract class ServiceException extends Exception
 {

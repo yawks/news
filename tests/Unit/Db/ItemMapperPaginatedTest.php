@@ -11,19 +11,19 @@
  * @copyright 2012-2014 Bernhard Posselt
  */
 
-namespace OCA\News\Tests\Unit\Db;
+namespace OCA\NewsYawks\Tests\Unit\Db;
 
 use OC\DB\QueryBuilder\Literal;
-use OCA\News\Db\Item;
-use OCA\News\Db\ItemMapperV2;
-use OCA\News\Service\Exceptions\ServiceValidationException;
-use OCA\News\Utility\Time;
+use OCA\NewsYawks\Db\Item;
+use OCA\NewsYawks\Db\ItemMapperV2;
+use OCA\NewsYawks\Service\Exceptions\ServiceValidationException;
+use OCA\NewsYawks\Utility\Time;
 use OCP\DB\QueryBuilder\IExpressionBuilder;
 
 /**
  * Class ItemMapperTest
  *
- * @package OCA\News\Tests\Unit\Db
+ * @package OCA\NewsYawks\Tests\Unit\Db
  */
 class ItemMapperPaginatedTest extends MapperTestUtility
 {
@@ -32,7 +32,7 @@ class ItemMapperPaginatedTest extends MapperTestUtility
     private $class;
 
     /**
-     * @covers \OCA\News\Db\ItemMapperV2::__construct
+     * @covers \OCA\NewsYawks\Db\ItemMapperV2::__construct
      */
     protected function setUp(): void
     {

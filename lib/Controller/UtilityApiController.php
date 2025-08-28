@@ -13,9 +13,9 @@
  * @copyright 2018 David Guillot
  */
 
-namespace OCA\News\Controller;
+namespace OCA\NewsYawks\Controller;
 
-use OCA\News\Service\UpdaterService;
+use OCA\NewsYawks\Service\UpdaterService;
 use \OCP\IRequest;
 use \OCP\IAppConfig;
 use \OCP\IUserSession;
@@ -23,7 +23,7 @@ use OCP\AppFramework\Http\Attribute\NoAdminRequired;
 use OCP\AppFramework\Http\Attribute\NoCSRFRequired;
 use OCP\AppFramework\Http\Attribute\CORS;
 
-use \OCA\News\Service\StatusService;
+use \OCA\NewsYawks\Service\StatusService;
 
 class UtilityApiController extends ApiController
 {

@@ -11,17 +11,17 @@
  * @copyright 2012-2014 Bernhard Posselt
  */
 
-namespace OCA\News\Tests\Unit\Controller;
+namespace OCA\NewsYawks\Tests\Unit\Controller;
 
-use OCA\News\Controller\ExportController;
-use OCA\News\Service\FeedServiceV2;
-use OCA\News\Service\FolderServiceV2;
+use OCA\NewsYawks\Controller\ExportController;
+use OCA\NewsYawks\Service\FeedServiceV2;
+use OCA\NewsYawks\Service\FolderServiceV2;
 
-use OCA\News\Service\ItemServiceV2;
-use OCA\News\Service\OpmlService;
-use \OCA\News\Utility\OPMLExporter;
-use \OCA\News\Db\Item;
-use \OCA\News\Db\Feed;
+use OCA\NewsYawks\Service\ItemServiceV2;
+use OCA\NewsYawks\Service\OpmlService;
+use \OCA\NewsYawks\Utility\OPMLExporter;
+use \OCA\NewsYawks\Db\Item;
+use \OCA\NewsYawks\Db\Feed;
 use OCP\AppFramework\Http\DataDownloadResponse;
 use OCP\IRequest;
 

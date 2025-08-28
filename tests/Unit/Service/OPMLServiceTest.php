@@ -12,16 +12,16 @@
  */
 
 
-namespace OCA\News\Tests\Unit\Service;
+namespace OCA\NewsYawks\Tests\Unit\Service;
 
-use OCA\News\Db\Folder;
-use OCA\News\Service\FeedServiceV2;
-use OCA\News\Service\FolderServiceV2;
-use OCA\News\Service\OpmlService;
-use OCA\News\Utility\OPMLExporter;
-use OCA\News\Utility\OPMLImporter;
+use OCA\NewsYawks\Db\Folder;
+use OCA\NewsYawks\Service\FeedServiceV2;
+use OCA\NewsYawks\Service\FolderServiceV2;
+use OCA\NewsYawks\Service\OpmlService;
+use OCA\NewsYawks\Utility\OPMLExporter;
+use OCA\NewsYawks\Utility\OPMLImporter;
 
-use OCA\News\Db\Feed;
+use OCA\NewsYawks\Db\Feed;
 
 use Psr\Log\LoggerInterface;
 

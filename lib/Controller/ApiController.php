@@ -15,10 +15,10 @@
  * @copyright 2020 Paul Tirk
  */
 
-namespace OCA\News\Controller;
+namespace OCA\NewsYawks\Controller;
 
-use OCA\News\AppInfo\Application;
-use OCA\News\Controller\Exceptions\NotLoggedInException;
+use OCA\NewsYawks\AppInfo\Application;
+use OCA\NewsYawks\Controller\Exceptions\NotLoggedInException;
 use \OCP\IUser;
 use \OCP\IRequest;
 use \OCP\IUserSession;
@@ -30,7 +30,7 @@ use OCP\AppFramework\Http\Attribute\PublicPage;
 /**
  * Class ApiController
  *
- * @package OCA\News\Controller
+ * @package OCA\NewsYawks\Controller
  */
 class ApiController extends BaseApiController
 {

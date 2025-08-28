@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <info xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
-    <id>news</id>
+    <id>news_yawks</id>
     <name>News</name>
     <summary>An RSS/Atom feed reader</summary>
     <description><![CDATA[📰 A RSS/Atom Feed reader App for Nextcloud
@@ -28,7 +28,7 @@ Report a [feed issue](https://github.com/nextcloud/news/discussions/new)
     <author>Bernhard Posselt (former)</author>
     <author>Alessandro Cosentino (former)</author>
     <author>Jan-Christoph Borchardt (former)</author>
-    <namespace>News</namespace>
+    <namespace>NewsYawks</namespace>
     <documentation>
         <user>https://nextcloud.github.io/news/user</user>
         <admin>https://nextcloud.github.io/news/admin/</admin>
@@ -59,43 +59,43 @@ Report a [feed issue](https://github.com/nextcloud/news/discussions/new)
     </dependencies>
 
     <background-jobs>
-        <job>OCA\News\Cron\UpdaterJob</job>
+        <job>OCA\NewsYawks\Cron\UpdaterJob</job>
     </background-jobs>
 
     <repair-steps>
         <post-migration>
-                <step>OCA\News\Migration\RemoveUnusedJob</step>
+                <step>OCA\NewsYawks\Migration\RemoveUnusedJob</step>
         </post-migration>
     </repair-steps>
 
     <commands>
-        <command>OCA\News\Command\ExploreGenerator</command>
-        <command>OCA\News\Command\ShowFeed</command>
-        <command>OCA\News\Command\Updater\UpdateFeed</command>
-        <command>OCA\News\Command\Updater\UpdateUser</command>
-        <command>OCA\News\Command\Updater\BeforeUpdate</command>
-        <command>OCA\News\Command\Updater\AfterUpdate</command>
-        <command>OCA\News\Command\Updater\Job</command>
-        <command>OCA\News\Command\Config\FolderList</command>
-        <command>OCA\News\Command\Config\FolderAdd</command>
-        <command>OCA\News\Command\Config\FolderDelete</command>
-        <command>OCA\News\Command\Config\FeedList</command>
-        <command>OCA\News\Command\Config\FeedAdd</command>
-        <command>OCA\News\Command\Config\FeedDelete</command>
-        <command>OCA\News\Command\Config\FeedDelete</command>
-        <command>OCA\News\Command\Config\OpmlExport</command>
-        <command>OCA\News\Command\Config\OpmlImport</command>
-        <command>OCA\News\Command\Debug\ItemList</command>
-        <command>OCA\News\Command\Debug\FolderItemList</command>
-        <command>OCA\News\Command\Debug\FeedItemList</command>
-        <command>OCA\News\Command\Debug\ItemRead</command>
-        <command>OCA\News\Command\Debug\FolderRead</command>
-        <command>OCA\News\Command\Debug\FeedRead</command>
+        <command>OCA\NewsYawks\Command\ExploreGenerator</command>
+        <command>OCA\NewsYawks\Command\ShowFeed</command>
+        <command>OCA\NewsYawks\Command\Updater\UpdateFeed</command>
+        <command>OCA\NewsYawks\Command\Updater\UpdateUser</command>
+        <command>OCA\NewsYawks\Command\Updater\BeforeUpdate</command>
+        <command>OCA\NewsYawks\Command\Updater\AfterUpdate</command>
+        <command>OCA\NewsYawks\Command\Updater\Job</command>
+        <command>OCA\NewsYawks\Command\Config\FolderList</command>
+        <command>OCA\NewsYawks\Command\Config\FolderAdd</command>
+        <command>OCA\NewsYawks\Command\Config\FolderDelete</command>
+        <command>OCA\NewsYawks\Command\Config\FeedList</command>
+        <command>OCA\NewsYawks\Command\Config\FeedAdd</command>
+        <command>OCA\NewsYawks\Command\Config\FeedDelete</command>
+        <command>OCA\NewsYawks\Command\Config\FeedDelete</command>
+        <command>OCA\NewsYawks\Command\Config\OpmlExport</command>
+        <command>OCA\NewsYawks\Command\Config\OpmlImport</command>
+        <command>OCA\NewsYawks\Command\Debug\ItemList</command>
+        <command>OCA\NewsYawks\Command\Debug\FolderItemList</command>
+        <command>OCA\NewsYawks\Command\Debug\FeedItemList</command>
+        <command>OCA\NewsYawks\Command\Debug\ItemRead</command>
+        <command>OCA\NewsYawks\Command\Debug\FolderRead</command>
+        <command>OCA\NewsYawks\Command\Debug\FeedRead</command>
     </commands>
 
     <settings>
-        <admin>OCA\News\Settings\AdminSettings</admin>
-        <admin-section>OCA\News\Settings\AdminSection</admin-section>
+        <admin>OCA\NewsYawks\Settings\AdminSettings</admin>
+        <admin-section>OCA\NewsYawks\Settings\AdminSection</admin-section>
     </settings>
 
     <navigations>

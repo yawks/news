@@ -11,10 +11,10 @@
  * @copyright 2012-2014 Bernhard Posselt
  */
 
-namespace OCA\News\Tests\Unit\Db;
+namespace OCA\NewsYawks\Tests\Unit\Db;
 
 use PHPUnit\Framework\TestCase;
-use OCA\News\Db\Feed;
+use OCA\NewsYawks\Db\Feed;
 
 class FeedTest extends TestCase
 {

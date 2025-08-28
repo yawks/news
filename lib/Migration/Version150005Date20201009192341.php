@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace OCA\News\Migration;
+namespace OCA\NewsYawks\Migration;
 
 use Closure;
 use OCP\DB\ISchemaWrapper;

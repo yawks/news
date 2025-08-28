@@ -11,17 +11,17 @@
  * @copyright 2012-2014 Bernhard Posselt
  */
 
-namespace OCA\News\Tests\Unit\Service;
+namespace OCA\NewsYawks\Tests\Unit\Service;
 
-use OCA\News\Db\Feed;
-use OCA\News\Db\ItemMapperV2;
-use OCA\News\Service\Exceptions\ServiceConflictException;
-use OCA\News\Service\Exceptions\ServiceNotFoundException;
-use OCA\News\Service\Service;
+use OCA\NewsYawks\Db\Feed;
+use OCA\NewsYawks\Db\ItemMapperV2;
+use OCA\NewsYawks\Service\Exceptions\ServiceConflictException;
+use OCA\NewsYawks\Service\Exceptions\ServiceNotFoundException;
+use OCA\NewsYawks\Service\Service;
 use \OCP\AppFramework\Db\DoesNotExistException;
 use \OCP\AppFramework\Db\MultipleObjectsReturnedException;
 
-use \OCA\News\Db\Folder;
+use \OCA\NewsYawks\Db\Folder;
 use PHPUnit\Framework\TestCase;
 use Psr\Log\LoggerInterface;
 

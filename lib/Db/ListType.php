@@ -11,12 +11,12 @@
  * @copyright 2012-2014 Bernhard Posselt
  */
 
-namespace OCA\News\Db;
+namespace OCA\NewsYawks\Db;
 
 /**
  * Enum FeedType
  *
- * @package OCA\News\Db
+ * @package OCA\NewsYawks\Db
  */
 class ListType
 {

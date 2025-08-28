@@ -11,9 +11,9 @@
  * @copyright 2012-2014 Bernhard Posselt
  */
 
-namespace OCA\News\Db;
+namespace OCA\NewsYawks\Db;
 
-use OCA\News\Utility\Time;
+use OCA\NewsYawks\Utility\Time;
 use OCP\AppFramework\Db\Entity;
 use OCP\DB\Exception as DBException;
 use OCP\DB\QueryBuilder\IQueryBuilder;
@@ -22,7 +22,7 @@ use OCP\IDBConnection;
 /**
  * Class FolderMapper
  *
- * @package OCA\News\Db
+ * @package OCA\NewsYawks\Db
  */
 class FolderMapperV2 extends NewsMapperV2
 {
